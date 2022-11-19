@@ -1,0 +1,50 @@
+.hero{
+    background-color: #444;
+    background-image: url('../img/sad03.jfif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 100vh;
+    padding: 1em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.sales-points{
+    padding: 12vh 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.salespoint{
+    margin: 0 1vw;
+    background: rgb(153, 146, 155);
+    flex-basis: 30%;
+    
+}
+@media(min-width:40rem){
+    .sales-points{
+        flex-direction: row;
+    }  
+}
+.cta{
+    background-image: url('../img/sad02.jfif');
+    background-size: cover;
+    padding: 10vh 0;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+.cta-text{
+    flex-basis: 100%;
+    padding: 0 2em;
+    @media (min-width:40rem){
+        flex-basis:50%;
+    }
+   
+}

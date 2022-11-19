@@ -1,0 +1,82 @@
+body{
+    background-color: #E5E5E5;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-size: 0.8 em;
+    color:#6C6C6C;
+}
+article{
+    background-color: white;
+    width: 800px;
+    border: 1px solid #666666 ;
+    margin: auto;
+   
+    
+}
+header{
+    margin: 3px 3px 20px 3px;
+    border: 2px dotted #999999;
+    padding: 10px;
+   
+}
+h1{
+    color: #FFAA01;
+    font-size: 2em;
+    text-align: right;
+}
+p{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+    border: 1px dotted black ;
+    margin: 1em;
+    font-family: cursive;
+    font-size: 0.8em;
+    padding: 1em;
+}
+section{
+    padding-top: 10px 20px;
+}
+table{
+    border-collapse: collapse;
+    border: 3px solid #666666;
+    width: 500px;
+    margin-left: 150px;
+}
+table td{
+    padding: 3px;
+    border: 1px solid #666666;
+    width: 100px;
+}
+table th{
+    color: #ff0;
+    font-weight: 900;
+    background-color: black;
+    text-align: center;
+}
+table tr:nth-child(even){
+    background-color: #ffffaa;
+}
+table tr:nth-child(odd){
+    background-color: #ffbbbb;
+}
+table td.number{
+    text-align: right;
+}
+footer{
+    border: 1px solid #999999;
+    margin: 3px;
+    font-size: 0.8em;
+    font-family: cursive;
+    text-align: center;
+}
+footer a{
+    color: #1292ff;
+    text-decoration: none;
+   
+}
+
+a:hover{
+    text-decoration: underline;
+}

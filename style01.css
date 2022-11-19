@@ -1,0 +1,21 @@
+img{
+    float: left;
+}
+#float1{
+    float: right;
+    color: aqua;
+    border: 1px solid red;
+    width: 200px;
+}
+#float2{
+    border: 3px solid black;
+    color: blue;
+    clear: both;
+}
+#float3{
+    border: 2px dotted gray;
+    float: right;
+    color: aqua;
+    width: 500px;
+    
+}
